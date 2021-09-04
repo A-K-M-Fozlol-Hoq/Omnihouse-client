@@ -1,0 +1,25 @@
+.menu{
+    position: relative;
+    text-align: center;
+    font-size:12px;
+}
+.menu .profile{
+    margin-top:40px;
+    margin-bottom:45px;
+}
+.menu img{
+    width:60%;
+    margin: auto;
+    margin-bottom:-15px;
+}
+.menu .circle{
+    position: absolute;
+    bottom: -150px;
+}
+.menu img, .menu p{
+    cursor: pointer;
+}
+.menu .icons p:hover{
+    background-color:#20C174;
+    border-radius: 20px;
+}

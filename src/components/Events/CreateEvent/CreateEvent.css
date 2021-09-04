@@ -1,0 +1,124 @@
+.create-event .form-section {
+  height: 525px;
+  width: 300px;
+  margin: 40px auto 0;
+  background-image: linear-gradient(#320c2b, #292529, rgba(50, 12, 43, 0.1));
+}
+.create-event .form {
+  padding: 15px;
+}
+.create-event .footer-section {
+  width: 300px;
+  background: rgba(13, 0, 0, 0.7);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.create-event .footer-section img {
+  width: 80%;
+  margin: auto;
+}
+.create-event .event-type {
+  border: 2px solid #93227f;
+  background-color: #1B171C;
+  border-radius: 5px;
+  width: 100% !important;
+  padding: 8px !important;
+  margin: 0px 0px 5px !important;
+}
+.create-event .form-control {
+  width: 80%;
+  padding: 8px;
+  margin: 5px 10%;
+  box-sizing: border-box;
+}
+.create-event .title-input,
+.create-event .location-input,
+.create-event .people-input,
+.create-event .date-time-input {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  border-bottom: 2px solid #93227f;
+}
+.create-event .description-input {
+  border-bottom: 2px solid #8b8b8b;
+}
+.create-event .form img {
+  margin-top: 8px;
+}
+.create-event .form select option {
+  color: green;
+}
+
+.create-event .form select option:first-child {
+    color: red;
+}
+.create-event textarea,
+.create-event input[type="text"] {
+  -webkit-appearance: none;
+  border: none;
+}
+.create-event textarea {
+  background-color: rgba(255, 255, 255, 0.08);
+  /* height:; */
+  width: 240px;
+  padding: 15px;
+  font-size: 15px;
+}
+.create-event input {
+  /* background-color: rgba(50, 12, 43, 0.2); */
+  background-color: transparent;
+}
+
+/* to make placeholder color white */
+.create-event ::placeholder {
+  color: #f9f3fa;
+  opacity: 1; /* Firefox */
+}
+
+.create-event :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f9f3fa;
+}
+.create-event ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
+
+.create-event input[type="datetime-local"] {
+  -webkit-appearance: none;
+  border: none;
+}
+.create-event .description-input {
+  width: 100%;
+  height: 60px;
+  margin-top: 60px;
+}
+.create-event .add-event {
+  width: 100px;
+  margin: 5px 0 0 165px;
+  padding: 5px;
+}
+.create-event .add-event input {
+  width: 100%;
+  padding: 5px;
+  background-color: #93227F;
+  border-radius: 20px;
+  border: 2px solid #292529;
+  color: #fff;
+}
+.create-event .add-event input:hover {
+  background-color: #292529;
+  border: 2px solid #93227F;
+  cursor: pointer;
+}
+
+input, select, textarea{
+    color: #fff;
+}
+textarea:focus, input:focus {
+    color: #fff;
+}
+
+
+/* #1B171C */
