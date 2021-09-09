@@ -14,13 +14,13 @@ import DraftEvents from "../Events/DraftEvents/DraftEvents";
 
 const Home = () => {
   // to show sidebar
-  const [showComponent, setShowComponent] = useState("omniCheck");
+  const [showComponent, setShowComponent] = useState("calender");
   
   // to show main functionality
-  const [ showFunctionality, setShowFunctionality ] = useState('createNewEvent');
+  const [ showFunctionality, setShowFunctionality ] = useState('');
   
   return (
-    <div>
+    <div className='home-page'>
       <div className="grid-container">
         <div className="menu">
           <Menu showComponent={showComponent} setShowComponent={setShowComponent} setShowFunctionality={setShowFunctionality} ></Menu>
@@ -36,7 +36,7 @@ const Home = () => {
           ) : showComponent === "omniScan" ? (
             <OmniScan></OmniScan>
           ) : showComponent === "calender" ? (
-            <Calender setShowFunctionality={setShowFunctionality}></Calender>
+            <Calender  showFunctionality={showFunctionality} setShowFunctionality={setShowFunctionality}></Calender>
           ) : (
             <></>
           )}

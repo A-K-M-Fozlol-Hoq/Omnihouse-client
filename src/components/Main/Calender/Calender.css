@@ -8,17 +8,21 @@
     cursor: pointer;
     margin: 5px;
 }
-.d-flex .circle{
+.events .d-flex .circle{
     margin-top: 17px;
 }
-.d-flex .plus{
+.events .d-flex .plus{
     margin-top:4px;
     font-size:30px;
 }
-.d-flex div, .d-flex p{
+.events .d-flex div, .d-flex p{
     margin-left: 20px;
 }
 .events .d-flex:hover{
+    background-color:#93227F;
+    border-radius: 20px;
+}
+.events .active{
     background-color:#93227F;
     border-radius: 20px;
 }

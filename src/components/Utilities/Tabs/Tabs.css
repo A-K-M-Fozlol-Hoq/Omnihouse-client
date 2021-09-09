@@ -1,0 +1,31 @@
+.tabs{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    text-align: center;
+    grid-gap:8px;
+}
+.tabs .all{
+background-color:#4E444C;
+padding-top:50px;
+padding-bottom :10px;
+border-radius: 10px;
+}
+.tabs .vendors{
+    background-color:#2A9D8F;
+    padding-top:50px;
+    padding-bottom :10px;
+    border-radius: 10px;
+}
+.tabs .viewing{
+    background-color:#D58A1B;
+    padding-top:50px;
+    padding-bottom :10px;
+    border-radius: 10px;
+}
+.tabs .warning{
+    background-color:#C33682;
+    padding-top:50px;
+    padding-bottom :10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

@@ -1,6 +1,6 @@
 .create-event .form-section {
   height: 525px;
-  width: 300px;
+  width: 350px;
   margin: 40px auto 0;
   background-image: linear-gradient(#320c2b, #292529, rgba(50, 12, 43, 0.1));
 }
@@ -8,19 +8,20 @@
   padding: 15px;
 }
 .create-event .footer-section {
-  width: 300px;
+  width: 350px;
   background: rgba(13, 0, 0, 0.7);
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 .create-event .footer-section img {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .create-event .event-type {
   border: 2px solid #93227f;
-  background-color: #1B171C;
+  background-color: #1b171c;
+  color: #fff;
   border-radius: 5px;
   width: 100% !important;
   padding: 8px !important;
@@ -28,6 +29,7 @@
 }
 .create-event .form-control {
   width: 80%;
+  color: #fff;
   padding: 8px;
   margin: 5px 10%;
   box-sizing: border-box;
@@ -51,17 +53,21 @@
 }
 
 .create-event .form select option:first-child {
-    color: red;
+  color: red;
 }
 .create-event textarea,
 .create-event input[type="text"] {
   -webkit-appearance: none;
   border: none;
 }
+/* .create-event .title-input input {
+  border: 1px solid rgba(50, 12, 43, 0.2) ;
+} */
 .create-event textarea {
   background-color: rgba(255, 255, 255, 0.08);
   /* height:; */
-  width: 240px;
+  color: #fff;
+  width: 290px;
   padding: 15px;
   font-size: 15px;
 }
@@ -96,29 +102,29 @@
 }
 .create-event .add-event {
   width: 100px;
-  margin: 5px 0 0 165px;
+  margin: 5px 0 0 215px;
   padding: 5px;
 }
 .create-event .add-event input {
   width: 100%;
   padding: 5px;
-  background-color: #93227F;
+  background-color: #93227f;
   border-radius: 20px;
   border: 2px solid #292529;
   color: #fff;
 }
 .create-event .add-event input:hover {
   background-color: #292529;
-  border: 2px solid #93227F;
+  border: 2px solid #93227f;
   cursor: pointer;
 }
-
-input, select, textarea{
-    color: #fff;
+.event-type input {
+  color: #fff;
 }
-textarea:focus, input:focus {
-    color: #fff;
+textarea:focus,
+input:focus {
+  color: #fff;
 }
-
-
-/* #1B171C */
+.disable-submit:hover {
+  cursor: not-allowed !important;
+}

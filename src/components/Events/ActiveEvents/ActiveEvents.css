@@ -1,0 +1,23 @@
+.active-events .content{
+  width: 350px;
+  margin: 40px auto 0;
+  background-image: linear-gradient(#320c2b, #292529, rgba(50, 12, 43, 0.1));
+}
+.active-events .content{
+  padding:10px;
+}
+.active-events .back-or-search{
+  display: grid;;
+  grid-template-columns: 1fr 1fr;
+}
+.active-events .back-or-search img{
+    margin-left: auto;
+    margin-top: 15px;
+}
+.active-events .back-or-search .edit{
+    margin-left: -35px;
+    margin-top: 5px;
+    font-size:20px;
+    cursor: pointer;
+}
+
